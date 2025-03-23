@@ -310,6 +310,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
 
 # Defaults
 defaults:
@@ -321,16 +327,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+    header:
+        overlay_image: /assets/images/bagel.jpg  # Default header image
+        # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
     
-collections:
-  posts:
-    output: true
-    permalink: /:categories/:year/:month/:day/:title/
-
-
 # Enable Taxonomies
 taxonomies:
   category: categories

@@ -23,11 +23,3 @@ Beyond its culinary significance, the bagel has acquired various pop cultural me
 6. **Internet and Meme Culture**: The bagel has found its way into internet memes and jokes, often as a quirky or random element. Its round shape and versatility make it a fun subject for creative or absurd humor.
 
 Overall, the bagel’s pop cultural meaning extends far beyond food, representing identity, place, humor, and everyday life in various contexts.
-
-## Basic Formatting Examples
-
-**Code Block:**
-```ruby
-def hello_world
-  puts "Hello from Jekyll!"
-end
