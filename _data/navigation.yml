@@ -3,11 +3,11 @@ main:
   - title: "Home"
     url: /home/
   - title: "Posts"
-    url: /year-archive/
+    url: /posts/
   - title: "Tags"
     url: /tags/
-  - title: "Collections"
-    url: /collection-archive/
+  - title: "Categories"
+    url: /categories/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
