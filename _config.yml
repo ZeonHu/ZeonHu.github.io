@@ -23,7 +23,7 @@ subtitle                 : "A Container to Emotion" # site tagline that appears 
 name                     : "Hu"
 description              : "A website."
 url                      : "https://zeonhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/home" # the subpath of your site, e.g. "/blog"
 repository               : "ZeonHu/ZeonHu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -274,7 +274,6 @@ whitelist:
   - jekyll-include-cache
   - jekyll-archives
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -321,7 +320,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -333,6 +332,13 @@ defaults:
     header:
         overlay_image: /assets/images/bagel.jpg  # Default header image
         # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
     
 # Enable Taxonomies
 taxonomies:
